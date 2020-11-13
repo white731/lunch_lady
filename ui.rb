@@ -75,7 +75,7 @@ class Ui
      puts "#{@user_input1}) #{@menu[1-@user_input1][:menu_item]} Price: #{@menu[1-@user_input1][:price]}"
      puts "#{@user_input2}) #{@menu[1-@user_input2][:menu_item]} Price: #{@menu[1-@user_input2][:price]}"
 
-     puts "Total is Price: #{@menu[1-@user_input2][:price] + @menu[1-@user_input2][:price]}"
+     puts "Total is Price: #{@menu[1-@user_input1][:price] + @menu[1-@user_input2][:price]}"
     end
 
 end
